@@ -1,0 +1,37 @@
+// vars
+
+$headline-text: 3rem; // 3 rem
+$body-text: 1rem; // 1 rem
+$nav-item: 1.25rem;
+$sub-header: 1.50rem;
+$byline: .75rem;
+
+$sans: 'Open Sans', sans-serif;
+$serif: 'Slabo 27px', serif;
+
+body {
+  font-family: $sans;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: $serifs;
+  font-size: $headline-text;
+}
+
+p {
+  font-family: $serifs;
+  font-size: $body-text;
+}
+
+nav li {
+  font-size: $nav-item;
+}
+
+h2 {
+  font-size: $sub-header;
+}
+
+figcaption {
+  font-size: $byline;
+}
